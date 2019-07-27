@@ -1,0 +1,14 @@
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the factorial function below.
+def fact(x):
+    if x == 0:
+        return 1
+    return x * fact(x - 1)
+
+x=int(input())
+print(fact(x))
